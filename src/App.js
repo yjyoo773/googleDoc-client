@@ -11,8 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Navigate to={`/documents/${uuidV4()}`} replace />} >
-        </Route>
+        <Route path="/" exact element={<Navigate to={`/documents/${uuidV4()}`} replace />} />
         <Route path="/documents/:id" element={<TextEditor />}/>
       </Routes>
     </BrowserRouter>
