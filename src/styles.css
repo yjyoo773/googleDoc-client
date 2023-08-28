@@ -11,7 +11,6 @@ body {
 .container .ql-editor {
     width: 8.5in;
     min-height: 11in;
-    /* max-height: 11in; */
     padding: 1in;
     margin: 1rem auto;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
